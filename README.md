@@ -33,3 +33,16 @@ The main steps in the EDA process include:
 * Deriving new, more informative features from existing data (e.g., ratios, aggregations).
 * Applying necessary transformations (log, square root) to normalize skewed data.
 * Encoding categorical features (e.g., One-Hot Encoding or Label Encoding).
+
+
+Model Creation and Evaluation Summary
+
+1. Data Preparation and Splitting
+2. Initial Modeling and Imbalance Handling
+Initial models, such as the Decision Tree Classifier, were trained using specified hyperparameters (e.g., criterion set to Entropy)56. Performance was assessed using the accuracy score and a detailed classification report
+
+ANN Model Building and Training (Using Keras)
+
+1.Data Scaling and Splitting
+2.Building the ANN Model
+
